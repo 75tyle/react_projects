@@ -14,32 +14,32 @@ function App() {
   return (
     <div className="App">
       {/* Accordian component */}
-      <Accordian />
+      {/* <Accordian /> */}
 
       {/* Random color component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
 
       {/* Star Rating */}
-      <StarRating />
+      {/* <StarRating /> */}
 
       {/* Image slider */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"4"}
-      />
+      /> */}
 
       {/* Load more products component*/}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
 
       {/* Tree view component / menu UI component / recursive navigation component  */}
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
 
       {/* QR code genrator*/}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
 
       {/* Light Dark Theme Mode */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator */}
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
