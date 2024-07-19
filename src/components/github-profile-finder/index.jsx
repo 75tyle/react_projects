@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import User from "./user";
+import './style.css';
+
 
 export default function GithubProfileFinder() {
   const [userName, setUserName] = useState("75tyle");
